@@ -8,7 +8,8 @@
 * Getting market data every 10 minutes to detect if any new coin gets listed on Binance.
 * After detection, user gets notified via Telegram.
 * After notification, user can enter the Flask web application to purchase coin that coin quickly.
-* 
+* Only BUSD based coins are enabled for purchase for now. ***Other coins are on progress***.
+* You can contact with me to enabling other coins. Contact info below this page.
 
 ## How To Use
 ### Required Libs
@@ -31,3 +32,10 @@ pip install Flask
 
 ### Setting Up Telegram Bot
 To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me/botfather "BotFather") and follow the simple steps. He will give you a token to start a chat with your bot. 
+
+
+
+> **Personal Information**
+> 
+>> Eyüp Barlas  eyupbarlas2134@gmail.com
+>> For more projects, [click here](https://github.com/eyupbarlas "my repos").
