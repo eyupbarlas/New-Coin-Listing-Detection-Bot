@@ -3,7 +3,7 @@
 ## Architecture
 ![Bzzman's NCL Bot Architecture](https://user-images.githubusercontent.com/72407947/138091419-74ddf933-acd3-4267-9ba5-7d74d888e6f0.jpg)
 ## About Project
-  ***Work in progress.*** This bot basically gets new coin listings from Binance using Binance API. An alert gets raised every time that a coin gets listed on Binance. After the alert, you can use the web page to purchase coins with the portion percentage. Crypto trading is highly volatile. This project doesn't possess any trading advise. Trade carefully.
+  ***Work in progress.*** This bot basically gets new coin listings from Binance using Binance API. An alert gets raised every time that a coin gets listed on Binance. After the alert, you can use the web page to purchase coins with the portion percentage. You need a Binance account to start trading. Then when you connect the API keys, you can purchase coins. Crypto trading is highly volatile. This project doesn't possess any trading advise. Trade carefully.
 ## Features
 * Getting market data every 10 minutes to detect if any new coin gets listed on Binance.
 * After detection, user gets notified via Telegram.
