@@ -33,7 +33,10 @@ pip install Flask
 ### Setting Up Telegram Bot
 To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me/botfather "BotFather") and follow the simple steps. He will give you a token to start a chat with your bot. 
 
+### Setting up Heroku Scheduler
 
+### Setting up MongoDB Atlas
+> [Useful documentation from MongoDB](https://www.mongodb.com/developer/how-to/use-atlas-on-heroku/ "Atlas on Heroku")
 
 > **Personal Information**
 > 
