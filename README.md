@@ -21,6 +21,15 @@ pip install python-binance
 ```
 pip install Flask
 ```
+* [PyMongo](https://pymongo.readthedocs.io/en/stable/ "Python Pymongo")
+```
+pip install pymongo
+```
+* [dnspython](https://pypi.org/project/dnspython/2.1.0/ "dnspython")
+```
+pip install dnspython
+```
+
 ### Deploying Python Flask App to Heroku
 > [Useful documentation by Heroku](https://devcenter.heroku.com/articles/getting-started-with-python "python app deployment")
 
@@ -34,9 +43,11 @@ pip install Flask
 To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me/botfather "BotFather") and follow the simple steps. He will give you a token to start a chat with your bot. 
 
 ### Setting up Heroku Scheduler
+> [Useful documentation from Heroku](https://devcenter.heroku.com/articles/scheduler "Heroku Scheduler Docs")
 
 ### Setting up MongoDB Atlas
 > [Useful documentation from MongoDB](https://www.mongodb.com/developer/how-to/use-atlas-on-heroku/ "Atlas on Heroku")
+
 
 > **Personal Information**
 > 
