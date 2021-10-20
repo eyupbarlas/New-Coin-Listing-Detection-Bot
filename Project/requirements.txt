@@ -1,0 +1,6 @@
+flask
+gunicorn
+requests
+python-binance
+pymongo
+dnspython
