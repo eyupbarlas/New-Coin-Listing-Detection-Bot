@@ -1,5 +1,5 @@
 from config import * 
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, flash
 from script import *
 
 """
@@ -46,7 +46,11 @@ def setQuantity():
     print("Money on operation: {}".format(portionBalance))
 
     #todo-> only busd for now
-    marketBuyOrder(symbol=latestBUSD, quantity=portionBalance)
+    buyOrder = marketBuyOrder(symbol=latestBUSD, quantity=portionBalance)
+    if buyOrder:
+        flash("Buy order successful!", category="success")
+    else:
+        flash("Buy order failed.", category="danger")
     
 
     return redirect(url_for("index"))

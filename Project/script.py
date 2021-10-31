@@ -53,9 +53,13 @@ def marketBuyOrder(symbol, quantity):
             quantity=quantity
         )
         pprint.pprint(order)
+        telegram_bot_sendtext("***Market Buy Order Successful!***")
+
 
     except Exception as e:
         print("Exception occured: {}".format(e))
+        telegram_bot_sendtext("Market Buy Order failed!\n+Exception: `{}`".format(e))
+
         return False
     
     return True
@@ -69,9 +73,12 @@ def marketSellOrder(symbol, quantity):
             quantity=quantity
         )
         pprint.pprint(order)
+        telegram_bot_sendtext("***Market Sell Order Successful!***")
+
 
     except Exception as e:
         print("Exception occured: {}".format(e))
+        telegram_bot_sendtext("Market Sell Order Failed!\n+Exception: `{}`".format(e))
         return False
     
     return True

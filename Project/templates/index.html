@@ -27,6 +27,21 @@
     -->
 
     <div class="container" style="text-align: center; margin-top: 70px;">
+        <div>                               <!-- ?This is for message flashing.  -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                  {% for category, message in messages %}
+                      {% if category == 'message' %}
+                        <div class="alert alert-warning" role="alert">
+                      {% else %}
+                        <div class="alert alert-{{ category }}" role="alert">
+                      {% endif %}
+                        {{ message }}
+                      </div>
+                  {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
         <h1 style="color: goldenrod;">New Coin Listing Bot by Bzzman</h1>
         <h6>This bot gets latest coins listed on Binance.</h6>
         <hr style="color: goldenrod;">
