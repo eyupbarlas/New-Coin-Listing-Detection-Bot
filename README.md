@@ -50,5 +50,6 @@ To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me
 > 
 >> Eyüp Barlas  eyupbarlas2134@gmail.com
 >> Waasiq Masood  waasiq.masood@gmail.com
->> For more projects from Eyüp Barlas, [click here](https://github.com/eyupbarlas "my repos").
->> For more projects from Waasiq Masood, [click here](https://github.com/waasiqmasood "my repos").
+>> For more projects from Eyüp Barlas, [click here](https://github.com/eyupbarlas "eyups repos").
+>> 
+>> For more projects from Waasiq Masood, [click here](https://github.com/waasiq "waasiqs repos").
