@@ -13,6 +13,10 @@
 
 ## How To Use
 ### Required Libs
+* [Python-Binance](https://python-binance.readthedocs.io/en/latest/ "python-binance")
+```
+pip install python-binance
+```
 * [Flask Framework](https://flask.palletsprojects.com/en/2.0.x/ "Python Flask")
 ```
 pip install Flask
@@ -24,10 +28,6 @@ pip install pymongo
 * [dnspython](https://pypi.org/project/dnspython/2.1.0/ "dnspython")
 ```
 pip install dnspython
-```
-* [Passlib](https://passlib.readthedocs.io/en/stable/ "passlib")
-```
-pip install passlib
 ```
 
 ### Deploying Python Flask App to Heroku
@@ -50,8 +50,5 @@ To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me
 > 
 >> Eyüp Barlas  eyupbarlas2134@gmail.com
 >> 
->> Waasiq Masood  waasiq.masood@gmail.com
->> 
 >> For more projects from Eyüp Barlas, [click here](https://github.com/eyupbarlas "eyups repos").
->> 
->> For more projects from Waasiq Masood, [click here](https://github.com/waasiq "waasiqs repos").
+
