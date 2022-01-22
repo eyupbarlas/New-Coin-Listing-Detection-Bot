@@ -13,9 +13,9 @@
 
 ## How To Use
 ### Required Libs
-* [Python-Binance](https://python-binance.readthedocs.io/en/latest/ "python-binance")
+* [Passlib](https://passlib.readthedocs.io/en/stable/ "passlib")
 ```
-pip install python-binance
+pip install passlib
 ```
 * [Flask Framework](https://flask.palletsprojects.com/en/2.0.x/ "Python Flask")
 ```
