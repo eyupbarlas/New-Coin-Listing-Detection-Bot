@@ -13,10 +13,6 @@
 
 ## How To Use
 ### Required Libs
-* [Passlib](https://passlib.readthedocs.io/en/stable/ "passlib")
-```
-pip install passlib
-```
 * [Flask Framework](https://flask.palletsprojects.com/en/2.0.x/ "Python Flask")
 ```
 pip install Flask
@@ -29,11 +25,15 @@ pip install pymongo
 ```
 pip install dnspython
 ```
+* [Passlib](https://passlib.readthedocs.io/en/stable/ "passlib")
+```
+pip install passlib
+```
 
 ### Deploying Python Flask App to Heroku
 > [Useful documentation by Heroku](https://devcenter.heroku.com/articles/getting-started-with-python "python app deployment")
 
-> [My explaination](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram/issues/1)
+> [My explaination on another project](https://github.com/eyupbarlas/Crypto-Trading-Bot-with-Tradingview-Binance-Heroku-and-Telegram/issues/1)
 #### Useful terminal commands after deployment:
 * After making a change on production: `git add .` + `git commit -am "your message"`
 * Pushing the app to the cloud: `git push heroku master`
@@ -42,9 +42,6 @@ pip install dnspython
 ### Setting Up Telegram Bot
 To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me/botfather "BotFather") and follow the simple steps. He will give you a token to start a chat with your bot. 
 
-### Setting up Heroku Scheduler
-> [Useful documentation from Heroku](https://devcenter.heroku.com/articles/scheduler "Heroku Scheduler Docs")
-
 ### Setting up MongoDB Atlas
 > [Useful documentation from MongoDB](https://www.mongodb.com/developer/how-to/use-atlas-on-heroku/ "Atlas on Heroku")
 <br>
@@ -52,4 +49,6 @@ To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me
 > **Personal Information**
 > 
 >> Eyüp Barlas  eyupbarlas2134@gmail.com
->> For more projects, [click here](https://github.com/eyupbarlas "my repos").
+>> Waasiq Masood  waasiq.masood@gmail.com
+>> For more projects from Eyüp Barlas, [click here](https://github.com/eyupbarlas "my repos").
+>> For more projects from Waasiq Masood, [click here](https://github.com/waasiqmasood "my repos").
