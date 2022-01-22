@@ -39,6 +39,9 @@ pip install dnspython
 * Pushing the app to the cloud: `git push heroku master`
 * Checking for logs: `heroku logs --tail`
 
+### Setting up Heroku Scheduler
+> [Useful documentation from Heroku](https://devcenter.heroku.com/articles/scheduler "Heroku Scheduler Docs")
+
 ### Setting Up Telegram Bot
 To build a bot for Telegram, you need to talk to [BotFather](https://telegram.me/botfather "BotFather") and follow the simple steps. He will give you a token to start a chat with your bot. 
 
